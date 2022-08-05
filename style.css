@@ -1,0 +1,188 @@
+body{
+    width: 100vw; 
+    max-width: 100%;
+}
+
+.about-me
+    {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    background-color: #a22f4cad;
+    height: 100vh;
+   
+
+    /* v = vista h =alto de la pantalla - se pone en porcentaje*/
+
+/* v=vista y w=ancho (al igual que lo anterir va en porcentaje)
+  */
+}
+
+.background-image
+{
+    background-image: url(https://i.pinimg.com/736x/75/24/3b/75243bb448b8942801f680722fdf11c5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size: 2rem;
+
+}
+
+.title
+{
+    margin-top:1rem;
+    margin-left: 1rem;
+    
+
+}   
+
+
+
+/* .title{
+   display: inline-block;  hace que la caja solo use el espacio del contenido //o sea lo que esta escrito 
+   en la linea  centrar un elemento//
+   position: relative;  habilita cuatro propiedades: arriba , abajo , izq y der 
+   top: 45%; 
+   left: 35%;
+     
+
+}    */
+
+.paragraph {
+    margin-top: 0;
+    margin-left: 1rem;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.row
+{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: space-around;
+}
+.card 
+{   
+    height: 40rem;
+    border: 1px solid rgba(0, 0, 0,0.2) ;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.card:hover
+{
+    transform: translateY(-2rem)
+
+}
+.card img
+{
+    width: 100%;
+    height: 60%;
+}
+
+.card-body
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 1rem;
+    width: 25rem;
+    height: 40%;
+    box-sizing: border-box;
+
+        
+}
+
+.button
+{
+        
+        background-color: #bf2d40;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+        
+
+}
+
+.button:hover
+{
+background-color: #f870949f;
+}
+.button a
+{
+        text-decoration: none; 
+        color: #fafafa;
+        
+}
+
+
+.button:hover a {
+    color: #2d090e;
+}
+.card-body .button
+{
+        align-self: center;
+        margin-top: auto;
+        gap: 2rem;
+    
+}
+
+.center 
+{
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.works 
+{
+    background-color: #ffb8c2;
+}
+.social
+{
+    background-color: #ffb8c2;
+
+}
+
+.icon 
+{
+    height: 4rem;
+    width: 4rem;
+}
+
+.networks{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
